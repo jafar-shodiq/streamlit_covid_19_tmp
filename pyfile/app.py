@@ -4,7 +4,7 @@ import pandas as pd
 st.write("""
 # My first app
 Hello *world!*
-eyooooo
+satu dua tiga
 """)
  
 # df = pd.read_csv("my_data.csv")

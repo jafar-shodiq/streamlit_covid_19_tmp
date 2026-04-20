@@ -7,5 +7,5 @@ Hello *world!*
 satu dua tiga
 """)
  
-# df = pd.read_csv("my_data.csv")
-# st.line_chart(df)
+df = pd.read_csv("../data/children_thr_data.csv", sep=";")
+st.line_chart(df)

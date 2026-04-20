@@ -7,5 +7,6 @@ Hello *world!*
 satu dua tiga
 """)
  
-df = pd.read_csv("../data/children_thr_data.csv", sep=";")
-st.line_chart(df)
+df = pd.read_csv("../data/children_thr_data.csv")
+df["age"] = df["age"].astype(int)
+st.line_chart(data=df, x="name", y="age")
